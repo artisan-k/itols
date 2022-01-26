@@ -108,6 +108,19 @@ $(function () {
 		})
 	}
 
+	$.searchMenu = function(){
+		$('.searchMenu, .mainBannerBtn, .goSearch').on('click',function(){
+			$('.homePage').hide();
+			$('.searchPage').show();
+		})
+	}
+
+	$.goMain = function(){
+		$('.goMain').on('click',function(){
+			$('.homePage').show();
+			$('.searchPage').hide();
+		})
+	}
 
 
 	$.init = function(){
@@ -115,7 +128,8 @@ $(function () {
 		$.nonHead();
 		$.portImgBox();
 		$.portClose();
-
+		$.searchMenu();
+		$.goMain();
 	
 	}
 	$.init();

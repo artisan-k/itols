@@ -68,8 +68,9 @@ html{width: 100%; overflow-x: hidden;}
 .headerMenuBox{width: 60%;}
 .headerMenuList{width: 100%;display: flex;justify-content: flex-end;}
 .headerMenuUnit{margin-left: 6%;}
-.headerMenu{display: inline-block;font-size: 14px;font-weight: 400;color: #333333;line-height: 26px;}
+.headerMenu{cursor: pointer; display: inline-block;font-size: 14px;font-weight: 400;color: #333333;line-height: 26px;}
 .headerContactBtn{cursor:pointer;position: relative; overflow: hidden; border: 1px solid #333333;box-sizing: border-box;width: 90px;text-align: center;border-radius: 20px;}
+.goMain{cursor: pointer;}
 
 .contentBox{padding-bottom: 138px;min-height: 100vh;box-sizing: border-box;}
 .mainBannerBox{overflow: hidden; height: 600px; position: relative;margin-top: 60px;}
@@ -233,6 +234,9 @@ html{width: 100%; overflow-x: hidden;}
     transform: translateY(-13px) rotate(45deg);
 }
 
+.searchPage{display: none;}
+.searchImg{padding-top: 60px;}
+.goSearch{cursor: pointer;}
 
 
 .PC{display: block;}
@@ -303,7 +307,7 @@ html{width: 100%; overflow-x: hidden;}
     .moIcon{display: block;}
     .headerMenuBox{background-color: white; display: none; width: 100%; position: fixed; left: 0; top: 60px; overflow: hidden;}
     .headerMenuList{flex-wrap: wrap; border-top: 1px solid #dcdcdc; padding: 30px 5%; box-sizing: border-box;}
-    .headerMenu{width: 100%; text-align: right; line-height: 36px;}
+    .headerMenu{ width: 100%; text-align: right; line-height: 36px;}
     .headerMenuUnit{margin-left: 0px; text-align: right;}
     .headerContactBtn{width: initial; border: none;}
 
